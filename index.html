@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabir's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2585a2c412.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ----------------header---------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoKabir.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Kabir</span> <br>from Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi ipsam at est assumenda
+                        cupiditate laborum, beatae consequatur quaerat, repellendus fugit dolores nisi aperiam corrupti
+                        corporis alias. Consequuntur, temporibus? Quam, amet aperiam! Facere quos voluptatibus et
+                        pariatur dolor rerum maiores illum doloribus nemo veritatis? Quidem architecto esse suscipit
+                        distinctio fugit eligendi sint omnis tenetur officiis illo! Voluptates itaque obcaecati error
+                        nostrum, quaerat iusto reprehenderit. Ratione doloribus consequatur odio voluptas temporibus,
+                        itaque praesentium neque nemo ab quae et? Voluptatem, aliquam eligendi! Incidunt eveniet,
+                        sapiente inventore similique explicabo repudiandae velit dignissimos veniam. Quasi non similique
+                        reiciendis id. Facilis ipsa temporibus culpa aspernatur.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span> <br>Develop website using PHP, HTML5, CSS3, Javascript,
+                                MySQL</li>
+                            <li><span>Backend-Intermediate</span> <br>Workable knowledge for backend part</li>
+                            <li><span>Team-Player</span> <br>Comfortable to work in a team</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Present</span> <br><span>IT Support Engineer</span> <br>Bashundhara Food &
+                                Beverage Ind. LTD.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span> <br>BSc in CSE - State University of Bangladesh (3.8 out of 4)</li>
+                            <li><span>2013</span> <br>HSC - Rangpur Govt. College (4.7 out of 5)</li>
+                            <li><span>2011</span> <br>SSC - Rangpur Zilla School (5 out of 5)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------services---------------
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur temporibus dolorem,
+                        similique numquam fugiat odit nobis vel rem! Nesciunt.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>Backend-Intermediate</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi optio dolorem, modi sapiente
+                        ratione sint cupiditate dolor labore quos perferendis.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h2>Google Research</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit obcaecati ducimus. Delectus
+                        illo libero omnis perspiciatis provident recusandae nisi?</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- ------------------------portfolio------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>Made a digital clock using HTML5, CSS3, Javascript. This clock will show date and time
+                            according to the workstation its running.</p>
+                        <a href="https://kabir-masood.github.io/Digital-Clock/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Calculation Game App</h3>
+                        <p>Made a calculation game app using HTML5, CSS3, Javascript. This will take correct ans of
+                            multiplication of two software generated numbers from the user and show the score.</p>
+                        <a href="https://kabir-masood.github.io/Calculation-Game-App/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Real Time Character Counter</h3>
+                        <p>Made this using HTML5, CSS3, Javascript. This will count characters when you type or erase
+                            character from tpying area.</p>
+                        <a href="https://kabir-masood.github.io/real-time-character-counter/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <!-- --------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> masood.k13b@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 01750965382</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Web Development-CV.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023 @ Md. Masudul Kabir</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
